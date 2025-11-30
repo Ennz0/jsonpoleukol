@@ -23,12 +23,12 @@ export default function ProductDetailCard({ product }: ProductDetailCardProps) {
           <div>
             <h1 className="card-title text-3xl mb-1 text-base-content">{product.name}</h1>
             <div className="flex gap-2">
-               <div className="badge badge-primary badge-outline">{product.category}</div>
+               <div className="badge badge-error badge-outline">{product.category}</div>
                <div className="badge badge-ghost text-base-content/80">Dodavatel: {product.supplier.name}</div>
             </div>
           </div>
           <div className="text-right">
-             <div className="text-3xl font-bold text-primary font-mono">{product.price.toLocaleString()} Kč</div>
+             <div className="text-3xl font-bold text-base-content font-mono">{product.price.toLocaleString('cs-CZ')} Kč</div>
           </div>
         </div>
 
