@@ -1,0 +1,995 @@
+[
+  {
+    "id": 1,
+    "name": "Notebook Pro",
+    "category": "Electronics",
+    "price": 25000,
+    "stockCount": 15,
+    "ratings": [
+      {
+        "name": "Alice",
+        "score": 5,
+        "comment": "Skvělý výkon a rychlost!"
+      },
+      {
+        "name": "Pavel",
+        "score": 4,
+        "comment": "Dobrá kvalita, ale trochu drahý."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Stylový design a praktická funkčnost."
+  },
+  {
+    "id": 2,
+    "name": "Mikina Sport",
+    "category": "Clothing",
+    "price": 800,
+    "stockCount": 30,
+    "ratings": [
+      {
+        "name": "Milan",
+        "score": 4,
+        "comment": "Pohodlná a teplá."
+      },
+      {
+        "name": "Kateřina",
+        "score": 5,
+        "comment": "Velmi příjemný materiál."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Kompaktní, lehký a snadno přenosný."
+  },
+  {
+    "id": 3,
+    "name": "Mixér Turbo",
+    "category": "Home",
+    "price": 1500,
+    "stockCount": 20,
+    "ratings": [
+      {
+        "name": "Eva",
+        "score": 5,
+        "comment": "Snadné používání a skvěle mixuje."
+      },
+      {
+        "name": "Tomáš",
+        "score": 4,
+        "comment": "Trochu hlučný, ale efektivní."
+      }
+    ],
+    "supplier": {
+      "id": 103,
+      "name": "HomeEssentials"
+    },
+    "description": "Vysoce výkonný produkt s moderními funkcemi."
+  },
+  {
+    "id": 4,
+    "name": "Televize UltraHD",
+    "category": "Electronics",
+    "price": 12000,
+    "stockCount": 34,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Vysoce výkonný produkt s moderními funkcemi."
+  },
+  {
+    "id": 5,
+    "name": "Chytré hodinky",
+    "category": "Electronics",
+    "price": 5000,
+    "stockCount": 29,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vysoce výkonný produkt s moderními funkcemi."
+  },
+  {
+    "id": 6,
+    "name": "Robotický vysavač",
+    "category": "Home",
+    "price": 8000,
+    "stockCount": 41,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 3,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Petra",
+        "score": 4,
+        "comment": "Skvělý produkt, doporučuji."
+      },
+      {
+        "name": "Karel",
+        "score": 5,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Skvělý poměr cena/výkon."
+  },
+  {
+    "id": 7,
+    "name": "Sluchátka Bass+",
+    "category": "Electronics",
+    "price": 1500,
+    "stockCount": 13,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 3,
+        "comment": "Dobrá kvalita za tu cenu."
+      },
+      {
+        "name": "Anna",
+        "score": 5,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Anna",
+        "score": 5,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vysoce výkonný produkt s moderními funkcemi."
+  },
+  {
+    "id": 8,
+    "name": "Kniha: Historie Evropy",
+    "category": "Books",
+    "price": 400,
+    "stockCount": 17,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 3,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Vynikající kvalita s dlouhou životností."
+  },
+  {
+    "id": 9,
+    "name": "Bunda do deště",
+    "category": "Clothing",
+    "price": 2000,
+    "stockCount": 11,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Vynikající kvalita s dlouhou životností."
+  },
+  {
+    "id": 10,
+    "name": "Stolní lampa",
+    "category": "Home",
+    "price": 500,
+    "stockCount": 26,
+    "ratings": [
+      {
+        "name": "Anna",
+        "score": 5,
+        "comment": "Dobrá kvalita za tu cenu."
+      },
+      {
+        "name": "Martin",
+        "score": 4,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Stylový design a praktická funkčnost."
+  },
+  {
+    "id": 11,
+    "name": "Kávovar Aroma",
+    "category": "Home",
+    "price": 3500,
+    "stockCount": 26,
+    "ratings": [
+      {
+        "name": "Anna",
+        "score": 3,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Dobrá kvalita za tu cenu."
+      },
+      {
+        "name": "Karel",
+        "score": 5,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vysoce výkonný produkt s moderními funkcemi."
+  },
+  {
+    "id": 12,
+    "name": "Hračka pro psy",
+    "category": "Toys",
+    "price": 300,
+    "stockCount": 37,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Odolný materiál, ideální pro aktivní životní styl."
+  },
+  {
+    "id": 13,
+    "name": "Puzzle 1000 dílků",
+    "category": "Toys",
+    "price": 400,
+    "stockCount": 25,
+    "ratings": [
+      {
+        "name": "Petra",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vysoce výkonný produkt s moderními funkcemi."
+  },
+  {
+    "id": 14,
+    "name": "Mikrovlnná trouba",
+    "category": "Home",
+    "price": 2500,
+    "stockCount": 48,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Skvělý produkt, doporučuji."
+      },
+      {
+        "name": "Anna",
+        "score": 3,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Ideální pro každodenní použití."
+  },
+  {
+    "id": 15,
+    "name": "Externí disk 1TB",
+    "category": "Electronics",
+    "price": 2500,
+    "stockCount": 44,
+    "ratings": [
+      {
+        "name": "Petra",
+        "score": 3,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Skvělý poměr cena/výkon."
+  },
+  {
+    "id": 16,
+    "name": "Kniha: Cestování světem",
+    "category": "Books",
+    "price": 450,
+    "stockCount": 17,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vhodný pro profesionální i domácí použití."
+  },
+  {
+    "id": 17,
+    "name": "Bluetooth reproduktor",
+    "category": "Electronics",
+    "price": 1800,
+    "stockCount": 25,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 5,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Karel",
+        "score": 5,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      },
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Skvělý poměr cena/výkon."
+  },
+  {
+    "id": 18,
+    "name": "Zimní čepice",
+    "category": "Clothing",
+    "price": 300,
+    "stockCount": 38,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 4,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Martin",
+        "score": 3,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Ideální pro každodenní použití."
+  },
+  {
+    "id": 19,
+    "name": "Zahradní židle",
+    "category": "Home",
+    "price": 700,
+    "stockCount": 43,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 3,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Anna",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Kompaktní, lehký a snadno přenosný."
+  },
+  {
+    "id": 20,
+    "name": "Chladnička",
+    "category": "Home",
+    "price": 12000,
+    "stockCount": 25,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 3,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Skvělý poměr cena/výkon."
+  },
+  {
+    "id": 21,
+    "name": "Šperkovnice",
+    "category": "Home",
+    "price": 900,
+    "stockCount": 27,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 5,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vysoce výkonný produkt s moderními funkcemi."
+  },
+  {
+    "id": 22,
+    "name": "Sluneční brýle",
+    "category": "Clothing",
+    "price": 600,
+    "stockCount": 23,
+    "ratings": [
+      {
+        "name": "Petra",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Anna",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Karel",
+        "score": 3,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Ideální pro každodenní použití."
+  },
+  {
+    "id": 23,
+    "name": "Nabíjecí kabel",
+    "category": "Electronics",
+    "price": 150,
+    "stockCount": 26,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      },
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Odolný materiál, ideální pro aktivní životní styl."
+  },
+  {
+    "id": 24,
+    "name": "Šála vlněná",
+    "category": "Clothing",
+    "price": 250,
+    "stockCount": 10,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      },
+      {
+        "name": "Karel",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Jan",
+        "score": 3,
+        "comment": "Skvělý produkt, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Stylový design a praktická funkčnost."
+  },
+  {
+    "id": 25,
+    "name": "Stolní hra: Strategie",
+    "category": "Toys",
+    "price": 600,
+    "stockCount": 39,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Skvělý poměr cena/výkon."
+  },
+  {
+    "id": 26,
+    "name": "Kniha: Záhady vesmíru",
+    "category": "Books",
+    "price": 500,
+    "stockCount": 22,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Stylový design a praktická funkčnost."
+  },
+  {
+    "id": 27,
+    "name": "Dětský batoh",
+    "category": "Toys",
+    "price": 450,
+    "stockCount": 45,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Karel",
+        "score": 5,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Kompaktní, lehký a snadno přenosný."
+  },
+  {
+    "id": 28,
+    "name": "Zrcadlo s LED osvětlením",
+    "category": "Home",
+    "price": 1500,
+    "stockCount": 31,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 3,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Petra",
+        "score": 3,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Martin",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Ideální pro každodenní použití."
+  },
+  {
+    "id": 29,
+    "name": "Kompaktní fotoaparát",
+    "category": "Electronics",
+    "price": 7500,
+    "stockCount": 14,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Kompaktní, lehký a snadno přenosný."
+  },
+  {
+    "id": 30,
+    "name": "Hrneček s potiskem",
+    "category": "Home",
+    "price": 120,
+    "stockCount": 31,
+    "ratings": [
+      {
+        "name": "Petra",
+        "score": 3,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vhodný pro profesionální i domácí použití."
+  },
+  {
+    "id": 31,
+    "name": "Elegantní hodinky",
+    "category": "Electronics",
+    "price": 9000,
+    "stockCount": 28,
+    "ratings": [
+      {
+        "name": "Anna",
+        "score": 4,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Vynikající kvalita s dlouhou životností."
+  },
+  {
+    "id": 32,
+    "name": "Kávová směs",
+    "category": "Home",
+    "price": 250,
+    "stockCount": 33,
+    "ratings": [
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Odolný materiál, ideální pro aktivní životní styl."
+  },
+  {
+    "id": 33,
+    "name": "USB flash disk 64GB",
+    "category": "Electronics",
+    "price": 300,
+    "stockCount": 45,
+    "ratings": [
+      {
+        "name": "Anna",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Jan",
+        "score": 3,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Skvělý poměr cena/výkon."
+  },
+  {
+    "id": 34,
+    "name": "Kniha: Příroda kolem nás",
+    "category": "Books",
+    "price": 370,
+    "stockCount": 33,
+    "ratings": [
+      {
+        "name": "Anna",
+        "score": 5,
+        "comment": "Skvělý produkt, doporučuji."
+      },
+      {
+        "name": "Martin",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Ideální pro každodenní použití."
+  },
+  {
+    "id": 35,
+    "name": "Bezdrátová myš",
+    "category": "Electronics",
+    "price": 600,
+    "stockCount": 27,
+    "ratings": [
+      {
+        "name": "Petra",
+        "score": 3,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Petra",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      },
+      {
+        "name": "Petra",
+        "score": 5,
+        "comment": "Skvělý produkt, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vhodný pro profesionální i domácí použití."
+  },
+  {
+    "id": 36,
+    "name": "Sportovní láhev",
+    "category": "Home",
+    "price": 150,
+    "stockCount": 19,
+    "ratings": [
+      {
+        "name": "Anna",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Vynikající kvalita s dlouhou životností."
+  },
+  {
+    "id": 37,
+    "name": "Malířské plátno",
+    "category": "Toys",
+    "price": 400,
+    "stockCount": 18,
+    "ratings": [
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 101,
+      "name": "TechCorp"
+    },
+    "description": "Odolný materiál, ideální pro aktivní životní styl."
+  },
+  {
+    "id": 38,
+    "name": "Vysoušeč vlasů",
+    "category": "Home",
+    "price": 700,
+    "stockCount": 11,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      },
+      {
+        "name": "Anna",
+        "score": 5,
+        "comment": "Splňuje očekávání, doporučuji."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Odolný materiál, ideální pro aktivní životní styl."
+  },
+  {
+    "id": 39,
+    "name": "Masážní válec",
+    "category": "Home",
+    "price": 900,
+    "stockCount": 42,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 3,
+        "comment": "Skvělý produkt, doporučuji."
+      },
+      {
+        "name": "Karel",
+        "score": 5,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Inovativní technologie pro efektivní využití."
+  },
+  {
+    "id": 40,
+    "name": "Kapuce na kolo",
+    "category": "Clothing",
+    "price": 1200,
+    "stockCount": 15,
+    "ratings": [
+      {
+        "name": "Anna",
+        "score": 5,
+        "comment": "Skvělý produkt, doporučuji."
+      },
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      },
+      {
+        "name": "Martin",
+        "score": 3,
+        "comment": "Lehce pod mé očekávání, ale stále OK."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Kompaktní, lehký a snadno přenosný."
+  },
+  {
+    "id": 41,
+    "name": "Ventilátor stolní",
+    "category": "Home",
+    "price": 1200,
+    "stockCount": 22,
+    "ratings": [
+      {
+        "name": "Jan",
+        "score": 3,
+        "comment": "Skvělý produkt, doporučuji."
+      },
+      {
+        "name": "Jan",
+        "score": 4,
+        "comment": "Splňuje očekávání, doporučuji."
+      },
+      {
+        "name": "Karel",
+        "score": 4,
+        "comment": "Dobrá kvalita za tu cenu."
+      }
+    ],
+    "supplier": {
+      "id": 103,
+      "name": "HomeEssentials"
+    },
+    "description": "Odolný materiál, ideální pro aktivní životní styl."
+  },
+  {
+    "id": 42,
+    "name": "Elektrický gril",
+    "category": "Home",
+    "price": 3000,
+    "stockCount": 21,
+    "ratings": [
+      {
+        "name": "Martin",
+        "score": 4,
+        "comment": "Odpovídá popisu, jsem spokojen."
+      }
+    ],
+    "supplier": {
+      "id": 102,
+      "name": "FashionHub"
+    },
+    "description": "Ideální pro každodenní použití."
+  }
+]
